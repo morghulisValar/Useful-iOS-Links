@@ -1,0 +1,9 @@
+I am working on making a screen which uses a scroll view and a toolbar at the bottom. The scroll view needs to hold various items, typically textfields, uiviews,image and label.
+
+First of all scrolled a toolbar at the bottom in the viewcontroller scene. Also added a scroll view. 
+
+Added constraint to the toolbar which are all 0. Constraint to margin is false. Similarly for the scroll view, all the four constraint are set to zero.
+
+Now, i will use a uiview inside the scroll view and set it's constraint to all zero's such that it fits to the scroll view. The name of the uiview is changed to ContentView.
+
+Now, ctrl drag from the contentview in the document window to the viewcontroller's view. select the option for equal width.

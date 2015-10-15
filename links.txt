@@ -1,1 +1,5 @@
 1. http://stackoverflow.com/questions/23025505/horizontally-expand-multiple-uitextfields-on-rotation-via-autolayout
+
+2. www.quora.com/What-are-the-best-online-on-iOS-UX-and-UI-design
+
+3. www.bitfoundation.io/courses

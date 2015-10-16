@@ -1,0 +1,1 @@
+1. www.stackoverflow.com/questions/11358082/empty-git-submodule-folder-when-clone 

@@ -1,1 +1,9 @@
-1. www.stackoverflow.com/questions/11358082/empty-git-submodule-folder-when-clone 
+1. www.stackoverflow.com/questions/11358082/empty-git-submodule-folder-when-clone
+
+2. I did a commit on the local system but it was not pushed yet and the commit message was not complete. To modify the commit message - 
+
+$ git commit --amend
+
+it opened the commit message in my vim editor where i modified the message. and then :wq)
+
+It worked like a charm. 

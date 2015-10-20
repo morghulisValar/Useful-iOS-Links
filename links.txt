@@ -3,3 +3,14 @@
 2. www.quora.com/What-are-the-best-online-on-iOS-UX-and-UI-design
 
 3. www.bitfoundation.io/courses
+
+4. when copying view controllers from one project's storyboard to other project's storyboard, there are two outlets connection if i click on the black circle on the left most side of the outlet name.
+
+I have two projects. In one of the project for one of the screen, i set the autolayout features. Now, i want to get a specific screen from one of the storyboard and replace the one without autolayout constraint in the other project.
+
+The solution seems to be that, i need to quit xcode and restart it, to get it running perfectly. now it does not show any extra refernece to other storyboards.
+
+
+If copying view controllers from one storyboard to other, clicking on the black circle on the left of any outlet name or the ibaction name may cause to show multiple storyboards, the solution is to restart xcode after copy and pasting the view controllers.
+
+Check if the two view controllers have same class, then remove the class for viewcontroller scene which you do not want to keep. Making it empty. Restart xcode.
